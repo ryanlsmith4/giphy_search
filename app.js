@@ -66,6 +66,6 @@ app.get('/greetings/:name', function(req, res) {
     });
 });
 
-app.listen(3000, function() {
+app.listen(process.env.PORT ||3000, function() {
     console.log('Gif Search listening on port localhost:3000!');
 });
