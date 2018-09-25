@@ -1,15 +1,26 @@
 {
-    "name": "atom.",
-    "version": "1.0.0",
-    "description": "",
-    "main": "app.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "author": "",
-    "license": "ISC",
-    "dependencies": {
-        "express-handlebars": "^3.0.0",
-        "giphy-api": "^1.2.7"
-    }
+  "name": "atom.",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express-handlebars": "^3.0.0",
+    "giphy-api": "^1.2.7"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryanlsmith4/giphy_search.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/ryanlsmith4/giphy_search/issues"
+  },
+  "homepage": "https://github.com/ryanlsmith4/giphy_search#readme",
+  "description": ""
 }
