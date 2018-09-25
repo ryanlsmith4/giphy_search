@@ -1,4 +1,4 @@
- var express = require('express');
+var express = require('express');
 var app = express();
 var exphbs = require('express-handlebars');
 var http = require('http');
@@ -65,7 +65,7 @@ app.get('/greetings/:name', function(req, res) {
         name: name
     });
 });
-var port = process.env.PORT ||3000;
+var port = process.env.PORT || 3000;
 app.listen(port, function() {
     console.log('Gif Search listening on port localhost:3000!');
 });
